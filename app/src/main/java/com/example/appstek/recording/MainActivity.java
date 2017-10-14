@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             mediaRecorder.setOutputFile(outputFile);
 
             //Toast.makeText(getApplicationContext(), " MIC Found!!!!! ", Toast.LENGTH_LONG).show();
-            Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! ", Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! ", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! second", Toast.LENGTH_LONG).show();
         }
         else
             {
