@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
             private void bt_start(View v) {
 
-                Toast.makeText(getApplicationContext(), "Pausing sound",Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Pausing sound",Toast.LENGTH_SHORT).show();
                 try {
                     mediaRecorder.prepare();
                     mediaRecorder.start();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         });
         bt_record.setEnabled(true);
         bt_stop.setEnabled(false);
-        Toast.makeText(getApplicationContext(),"Record Started",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Record ",Toast.LENGTH_LONG).show();
 
         bt_stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 bt_stop.setEnabled(false);
                 bt_play.setEnabled(false);
 
+           //     Toast.makeText(getApplicationContext(),"Audio Record Successfully",Toast.LENGTH_LONG).show();
                 Toast.makeText(getApplicationContext(),"Audio Record Successfully",Toast.LENGTH_LONG).show();
             }
         });
