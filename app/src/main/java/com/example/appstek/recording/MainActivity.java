@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! second", Toast.LENGTH_LONG).show();
             Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! Third", Toast.LENGTH_LONG).show();
             Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! Fourth", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), " Git Testing commit!!!!! Fifth from mahendra system", Toast.LENGTH_LONG).show();
         }
         else
             {
